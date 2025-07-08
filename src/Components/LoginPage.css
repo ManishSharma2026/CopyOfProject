@@ -1,0 +1,97 @@
+/* src/Components/LoginPage.css */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background: #f5f6fa;
+}
+
+.login-wrapper {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+  background: #f5f6fa;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo-placeholder {
+  font-size: 50px;
+}
+
+.brand-name {
+  font-weight: 600;
+  color: #333;
+  margin-top: 5px;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 360px;
+  /* padding helps with create space between an element's content and its border basically creating a breathing room */
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  /* can remove line 42 to make it a bit bigger */
+  box-sizing: border-box;
+}
+
+.login-container h2 {
+  text-align: left;
+  margin-bottom: 24px;
+  color: #202124;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.login-container input:focus {
+  outline: none;
+  border-color: #1a73e8;
+  box-shadow: 0 0 0 1px #1a73e8;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1a73e8;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.login-container button:hover {
+  background-color: #155acb;
+}
+.top-brand {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a73e8;
+  letter-spacing: 1px;
+}
+
+.login-container {
+  max-width: 440px; /* ⬅️ Was 360px */
+  padding: 40px;     /* ⬅️ More space inside */
+}

@@ -1,0 +1,18 @@
+.employee-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.employee-container h1 {
+  color: #007bff;
+}
+
+.employee-container ul {
+  text-align: left;
+}
